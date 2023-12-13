@@ -1,12 +1,14 @@
 async function mulainama() {
-           kadoIn.style="display:none";ket.style="display:none";
-           Content.style = "opacity:1;margin-top:2vh";
-           bodyblur.style="opacity:.7";
-           wallpaper.style="transform: scale(1);";
-           fotostiker.style="display:inline-flex;";
-           setTimeout(ftmuncul,200);
-           setTimeout(kethalo,500);
-  }
+    // window.location.replace("https://www.feeldream.my.id/2023/01/script-html-bucin.html");
+    kadoIn.style = "display:none";
+    ket.style = "display:none";
+    Content.style = "opacity:1;margin-top:2vh";
+    bodyblur.style = "opacity:.7";
+    wallpaper.style = "transform: scale(1);";
+    fotostiker.style = "display:inline-flex;";
+    setTimeout(ftmuncul, 200);
+    setTimeout(kethalo, 500);
+}
   
   function ftmuncul(){
     if(ftganti==0){fotostiker.src = deffotostiker;fotostiker.style="display:inline-flex;opacity:1;transform:scale(1)";}
